@@ -38,6 +38,9 @@ h1 strong {
   display: flex;
   justify-content: space-between;
   padding: 10px;
+  -webkit-box-shadow: 0px 7px 9px -1px rgba(163,163,163,1);
+-moz-box-shadow: 0px 7px 9px -1px rgba(163,163,163,1);
+box-shadow: 0px 7px 9px -1px rgba(163,163,163,1);
 }
 
 .header a {
@@ -51,7 +54,6 @@ h1 strong {
 .hero {
   /* background-color: #85D8CE; */
   background: linear-gradient(#2193b0, #6dd5ed);
-
 }
 
 .project__detail {
@@ -163,6 +165,9 @@ nav a {
   color: white; */
   /* background: linear-gradient(#6dd5ed, #2193b0); */
   background-color: #6dd5ed;
+  -webkit-box-shadow: 0px 3px 9px -1px rgba(163,163,163,1);
+  -moz-box-shadow: 0px 3px 9px -1px rgba(163,163,163,1);
+  box-shadow: 0px 3px 9px -1px rgba(163,163,163,1);
 
 }
 
@@ -212,6 +217,9 @@ nav a {
   overflow: hidden;
   flex-shrink: 0;
   background: #085078;
+  -webkit-box-shadow: 0px 3px 9px -1px rgba(163,163,163,1);
+  -moz-box-shadow: 0px 3px 9px -1px rgba(163,163,163,1);
+  box-shadow: 0px 3px 9px -1px rgba(163,163,163,1);
 }
 
 .event__wrapper--img {
